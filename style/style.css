@@ -189,3 +189,56 @@ main section{
 .section-description{
   padding: 20px;
 }
+
+.resume-container{
+  display: flex;
+  gap: 24px;
+  /* margin: 50px; */
+  padding: 50px;
+  color: rgb(117, 117, 117);
+font-family: Open Sans;
+}
+.resume-column{
+  /* margin: 40px; */
+  padding: 30px;
+}
+.resume-column-title{
+  color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.experience{
+
+}
+.experience-title{
+  color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+margin-top: 15px;
+}
+.experience-subtitle{
+  color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.experience-description{
+  margin-bottom: 15px;
+}
+
+
