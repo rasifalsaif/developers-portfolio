@@ -1,0 +1,40 @@
+.about-section {
+  padding: 6rem 2rem;
+  background: var(--bg-2);
+  margin-top: 4rem;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.about-card {
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-label {
+  color: var(--text-3);
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-value {
+  color: var(--text-1);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
