@@ -18,13 +18,19 @@
 
 .about-card {
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   text-align: center;
-  transition: transform 0.3s ease;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--card-shadow);
+  transition: all 0.3s ease;
 }
 
 .about-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  background: var(--bg-1);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--primary);
 }
 
 .about-label {

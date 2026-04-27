@@ -28,12 +28,12 @@ export const Hero = () => {
           </div>
         </motion.div>
         <motion.div 
-          className="hero-image-container"
+          className="hero-image-container float-animation"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <img src="images/hardy.png" alt="Mary Hardy" className="hero-profile" />
+          <img src="public/images/hardy.png" alt="Mary Hardy" className="hero-profile" />
         </motion.div>
       </div>
     </header>
