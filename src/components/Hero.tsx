@@ -33,7 +33,7 @@ export const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <img src="public/images/hardy.png" alt="Mary Hardy" className="hero-profile" />
+          <img src="images/hardy.png" alt="Mary Hardy" className="hero-profile" />
         </motion.div>
       </div>
     </header>
