@@ -1,11 +1,14 @@
-# React + TypeScript + Vite
+# Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built with React, TypeScript, and Vite. Showcasing projects, skills, and professional experience with a sleek design and smooth animations.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Next generation build tool
+- **CSS** - Responsive styling
+- **Framer Motion** - Smooth animations
 
 ## React Compiler
 
